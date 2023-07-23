@@ -5,7 +5,7 @@
 
 ## This is a super simple MovieList App built using React.js
 
-You can view a live demo of the project here: 
+You can view a live demo of the project here: https://my-movie-to-add-list.netlify.app/
 
 ## 🙂 Features:
 
