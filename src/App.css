@@ -1,0 +1,99 @@
+body {
+  background-image: url('movie-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.App {
+  font-family: 'Bacasime Antique', serif;
+  min-height: 80vh;
+  width: 450px;
+  margin: 60px auto; /* auto ist für die zentrierung des komponenten zuständig */
+  background-color: rgb(36,31,34);
+  -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  opacity: 0.9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.cross {
+  text-decoration: line-through 2px #853925;
+  background-color: #eae8eb;
+}
+
+ul, li {
+  color: #f0c173;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+
+h1 {
+  color: #e59a23;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+img {
+  padding-right: 8px;
+}
+
+.add {
+  font-family: 'Bacasime Antique', serif;
+  background: #5c5a49;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+}
+
+.delete {
+  font-family: 'Bacasime Antique', serif;
+  background: #be3a3b;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+}
+
+input {
+  font-family: 'Bacasime Antique', serif;
+  flex: 1;
+  padding: 8px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.App-logo {
+  height: 140px;
+  pointer-events: none;
+  margin-top: 100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  to {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
